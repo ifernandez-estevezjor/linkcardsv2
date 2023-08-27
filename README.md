@@ -7,3 +7,6 @@ Segunda versión página web Linkcards
 
 # características
 - Se creó la sección "Características" con diseño responsivo (NOTA: Revisar y confirmar si el responsive funciona correctamente en línea).
+
+# networking
+- Se creó la sección "Networking" con diseño responsivo (NOTA: Revisar y confirmar si el responsive funciona correctamente en línea).

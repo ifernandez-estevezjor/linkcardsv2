@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
 /*------ Página de Inicio ------*/
 body{
+    font-family: 'Mulish', sans-serif;
+}
+
+.bg-index{
     background: url(/assets/img/inicio/background-index.gif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,9 +50,31 @@ body{
 }
 /*------------------------------------*/
 
+
+/*------ Página Networking ------*/
+.bg-networking{
+    background: url(/assets/img/networking/background-networking.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-vigiliner{
+    height: 248px;
+}
+
+.img-calibratto{
+    height: 280px;
+}
+
+.img-decomart{
+    height: 280px;
+    width: 500px;
+}
+/*-------------------------------*/
+
 /*------ Media Queries ------*/
 @media (max-width: 468px){
-    body{
+    .bg-index{
         background-image: url(/assets/img/inicio/background-index.gif);
         height: 1000px;
     }
@@ -79,6 +107,12 @@ body{
 
     .img-center{
         height: 130px;
+    }
+
+    .bg-networking{
+        background: url(/assets/img/networking/background-networking.png);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 /*---------------------------*/
