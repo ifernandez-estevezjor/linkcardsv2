@@ -1,6 +1,6 @@
 /*------ Página de Inicio ------*/
 body{
-    background-image: url(/assets/img/inicio/background-index.gif);
+    background: url(/assets/img/inicio/background-index.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -22,10 +22,32 @@ body{
 }
 /*------------------------------*/
 
+
+/*------ Página Características ------*/
+.bg-caracteristicas{
+    background: url(/assets/img/caracteristicas/bg-caracteristicas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.video-carac{
+    width: 100%;
+}
+
+/*.img-carac{
+    width: 400px;
+}*/
+
+.img-center{
+    height: 490px;
+}
+/*------------------------------------*/
+
 /*------ Media Queries ------*/
 @media (max-width: 468px){
     body{
-        background-image: url(/assets/img/inicio/background-index.gif) repeat-x;
+        background-image: url(/assets/img/inicio/background-index.gif);
         height: 1000px;
     }
 
@@ -53,6 +75,10 @@ body{
         width: 50px;
         padding: 5px;
         padding-right: 30px;
+    }
+
+    .img-center{
+        height: 130px;
     }
 }
 /*---------------------------*/
