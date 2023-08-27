@@ -1,0 +1,58 @@
+/*------ Página de Inicio ------*/
+body{
+    background-image: url(/assets/img/inicio/background-index.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-menu{
+    height: 100vh;
+}
+
+.img-logo{
+    width: 100%;
+}
+
+.img-icono{
+    width: 15%;
+}
+
+.social-network{
+    width: 60%;
+}
+/*------------------------------*/
+
+/*------ Media Queries ------*/
+@media (max-width: 468px){
+    body{
+        background-image: url(/assets/img/inicio/background-index.gif) repeat-x;
+        height: 1000px;
+    }
+
+    .container-menu{
+        padding-left: 40px;
+    }
+
+    .text-menu-big, .text-menu-small{
+        font-size: 7px;
+    }
+
+    .text-menu{
+        font-size: 8px;
+    }
+
+    .img-logo{
+        width: 250px;
+    }
+
+    .img-icono{
+        width: 25px;
+    }
+
+    .social-network{
+        width: 50px;
+        padding: 5px;
+        padding-right: 30px;
+    }
+}
+/*---------------------------*/
