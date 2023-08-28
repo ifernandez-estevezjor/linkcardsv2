@@ -51,6 +51,33 @@ body{
 /*------------------------------------*/
 
 
+/*------ Página Suscripción y Costos ------*/
+.bg-suscripcion{
+    background: url(/assets/img/suscripcion/bg-suscripcion.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+/*-----------------------------------------*/
+
+
+/*------ Página Nuestro Equipo ------*/
+.bg-equipo{
+    background: url(/assets/img/nuestro-equipo/bg-equipo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-linkcards{
+    width: 220px;
+}
+
+.img-equipo{
+    width: 300px;
+}
+/*-----------------------------------*/
+
+
 /*------ Página Networking ------*/
 .bg-networking{
     background: url(/assets/img/networking/background-networking.png);
@@ -113,6 +140,17 @@ body{
         background: url(/assets/img/networking/background-networking.png);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    .bg-equipo{
+        background: url(/assets/img/nuestro-equipo/bg-equipo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1000px;
+    }
+
+    .img-equipo{
+        height: 90px;
     }
 }
 /*---------------------------*/
