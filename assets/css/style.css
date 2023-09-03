@@ -58,6 +58,10 @@ body{
     background-size: cover;
     overflow: hidden;
 }
+
+.title-text{
+    color: #d300ff;
+}
 /*-----------------------------------------*/
 
 
@@ -69,11 +73,11 @@ body{
 }
 
 .img-linkcards{
-    width: 220px;
+    width: 250px;
 }
 
 .img-equipo{
-    width: 300px;
+    width: 250px;
 }
 /*-----------------------------------*/
 

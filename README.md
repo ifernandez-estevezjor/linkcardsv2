@@ -15,4 +15,7 @@ Segunda versión página web Linkcards
 - Se creó la sección "Networking" con diseño responsivo (NOTA: Revisar y confirmar si el responsive funciona correctamente en línea).
 
 # nuestro equipo
-- Se creó la sección "Nuestro equipo", el diseño responsivo sigue en desarrollo.
+- Se creó la sección "Nuestro equipo", en fase de desarrollo.
+
+# Proceso de compra
+- Se creó la sección "Proceso de compra", en fase de desarrollo.
